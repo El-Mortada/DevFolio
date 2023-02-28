@@ -1,0 +1,63 @@
+header {
+  background-image: url(images/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.font-medium {
+  font-size: 28px;
+  line-height: 33.6px;
+}
+.font-2 {
+  font-size: 20px;
+  line-height: 33.6px;
+}
+.font-large {
+  font-size: 56px;
+  line-height: 67.2px;
+}
+.nav-item .nav-link {
+  position: relative;
+}
+.nav-item .nav-link:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  /* width: 0; */
+  background-color: #fff;
+  transition: all 0.5s linear;
+}
+.nav-item:hover .nav-link::before {
+  width: 100%;
+}
+footer {
+  background-color: #0062d3;
+  color: #fff;
+  position: relative;
+}
+.back-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #0078ff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+.text-column {
+  box-shadow: 0px 0 30px rgb(78 78 78 / 8%);
+}
+.text-column a {
+  color: #99757d;
+  transition: color 0.5s ease;
+}
+.text-column a:hover {
+  color: #0078ff;
+}

@@ -1,0 +1,124 @@
+header {
+  background-image: url(images/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.font-medium {
+  font-size: 28px;
+  line-height: 33.6px;
+}
+.font-2 {
+  font-size: 20px;
+  line-height: 33.6px;
+}
+.font3 {
+  font-size: 30px;
+  line-height: 36.5px;
+}
+.font-large {
+  font-size: 56px;
+  line-height: 67.2px;
+}
+.nav-item .nav-link {
+  position: relative;
+}
+.nav-item .nav-link:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  /* width: 0; */
+  background-color: #fff;
+  transition: all 0.5s linear;
+}
+.nav-item:hover .nav-link::before {
+  width: 100%;
+}
+.stamp {
+  border-left: 5px solid #0078ff;
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.quote {
+  border-left: 3px solid #0078ff;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+}
+.button-rouded {
+  border-radius: 5rem;
+}
+.button-big {
+  padding: 0.9rem 2.3rem;
+  font-size: 1.2rem;
+}
+.button-a {
+  text-decoration: none;
+  background-color: #0078ff;
+  color: #fff;
+  border-color: #cde1f8;
+}
+.about-me:before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: 0;
+}
+.about-me {
+  font-size: 2rem;
+  position: relative;
+}
+.title-head:before {
+  content: "|";
+  font-weight: 700;
+  position: absolute;
+  color: #0078ff;
+  left: -15px;
+  bottom: 3px;
+}
+.title-head {
+  font-size: 25px;
+  line-height: 30.7px;
+  position: relative;
+}
+ul {
+  list-style-type: "- ";
+  padding: 15px 0;
+}
+li {
+  padding: 10px 0;
+}
+li a {
+  color: #1e1e1e;
+  transition: color 0.5s ease;
+  text-decoration: none;
+}
+li a:hover {
+  color: #0078ff;
+}
+footer {
+  background-color: #0062d3;
+  color: #fff;
+  position: relative;
+}
+.back-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #0078ff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
